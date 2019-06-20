@@ -10,6 +10,7 @@
 	// **********************************************************************************
 	
 	//if (isset($links[0])) : echo "URL:https://cmbel.shiftf5.be" . $links[0] . "\r\n"; endif;
+	
 	if (isset($_GET['events'] ) ) : $events = $_GET['events']; endif;
 	if (isset($_GET['action'] ) ) : $action = $_GET['action']; endif;
 	if ($action == 'download') : header ('Content-Type: text/calendar'); header ('Content-Disposition: attachment; filename=nkbvwedstrijden.ics'); endif;
