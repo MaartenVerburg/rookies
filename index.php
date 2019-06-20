@@ -1,6 +1,5 @@
 <?php
 	// ***********************************************************************************
-	//
 	// Generates .ics (ical) calendar file from dutch NKBV competitions on was2.shiftf5.nl
 	// exports 3 years, current, next and past year
 	// URL Options: www.hexentric.nl/rookies/?events=[day]&action=[download]
@@ -8,7 +7,6 @@
 	//			events = day, shows all competitions as a all-day event
 	//			action = download, sends an ics-file to the browser
 	// Author: Maarten Verburg, 2018-2019
-	//
 	// ***********************************************************************************
 	
 	//if (isset($links[0])) : echo "URL:https://was2.shiftf5.nl" . $links[0] . "\r\n"; endif;
